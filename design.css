@@ -2,3 +2,52 @@ body {
     background-image: url("CSGO.jpg");
     background-repeat: no-repeat;
 }
+
+html, body {
+    padding:0;
+    margin: 0;
+}
+.toggle_btn {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.toggle_btn span{
+    height: 3px;
+    background-color: black;
+    width: 100%;
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+.toggle_btn span:before {
+    content:'';
+    height: 3px;
+    background-color: black;
+    width: 100%;
+    position: absolute;
+    top: -10px;
+    left: 0;
+
+}
+
+.toggle_btn span:after {
+    content:'';
+    height: 3px;
+    background-color: black;
+    width: 100%;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+.menu {
+    height: 1000px;
+    background-color: black;
+    width: 200px;
+}
