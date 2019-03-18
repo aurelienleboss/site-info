@@ -4,24 +4,6 @@ body {
 
 }
 
-<<<<<<< Updated upstream
-html, body {
-    padding: 0;
-    margin: 0;
-=======
-header{
-    background-image: url("inconecs.png");
-    background-repeat: no-repeat;
-
-}
-
-nav ul {
-    padding: 0px;
-    margin: 0px;
-    list-style-type: none;
-    background-color:#333333;
->>>>>>> Stashed changes
-}
 
 .toggle_btn {
     height: 30px;
@@ -88,7 +70,7 @@ nav ul {
 }
 
 .nav {
-    margin-left: -200px;
+    margin-left: -220px;
     transition: 0.2s;
 }
 
