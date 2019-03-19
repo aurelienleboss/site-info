@@ -62,7 +62,15 @@ body {
 
 .menu a {
     color:#ffffff;
+<<<<<<< HEAD
     font-family: sans-serif ;
+=======
+<<<<<<< HEAD
+    font-family: Verdana;
+=======
+    font-family: sans-serif ;
+>>>>>>> master
+>>>>>>> master
     text-align:center;
     display:block;
     padding-top: 60px;
@@ -83,10 +91,20 @@ body {
 }
 
 .nav {
+<<<<<<< HEAD
 
     margin-left: -200px;
     transition: 0.4s;
 
+=======
+<<<<<<< HEAD
+    margin-left: -200px;
+    transition: 0.4s;
+=======
+    margin-left: -220px;
+    transition: 0.2s;
+>>>>>>> master
+>>>>>>> master
 }
 
 .nav_open {
