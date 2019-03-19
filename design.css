@@ -59,10 +59,10 @@ html, body {
 
 .menu a {
     color:#ffffff;
-    font-family: sans-serif;
+    font-family: Verdana;
     text-align:center;
     display:block;
-    padding-top: 30px;
+    padding-top: 60px;
     text-decoration: none;
 
 }
@@ -75,12 +75,12 @@ html, body {
 
 .nav {
     margin-left: -200px;
-    transition: 0.2s;
+    transition: 0.4s;
 }
 
 .nav_open {
     margin-left: 0;
-    transition-duration: 0.2s;
+    transition-duration: 0.4s;
 }
   
 
