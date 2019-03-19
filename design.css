@@ -4,9 +4,8 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
 }
-
-
 
 
 .toggle_btn {
@@ -119,7 +118,11 @@ body {
     background-color:black;
     color: white;
     margin-left: 500px;
+<<<<<<< HEAD
     margin-top: -700px;
+=======
+    margin-top: -550px;
+>>>>>>> parent of 4d74cd6... Merge remote-tracking branch 'origin/master'
     opacity: 0.75;
  }
   
