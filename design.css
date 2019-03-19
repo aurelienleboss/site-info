@@ -15,14 +15,16 @@ body {
     position: relative;
     float: right;
     margin-right: 10px;
-    margin-top: 5px;
+    margin-top: 15px;
     cursor: pointer;
+    margin-top: 10px;
+    margin-right: 50px;
 
 }
 
 .toggle_btn span {
     height: 3px;
-    background-color:#34495e;
+    background-color:#f39c12;
     width: 100%;
     position: absolute;
     top: 20px;
@@ -32,7 +34,7 @@ body {
 .toggle_btn span:before {
     content:'';
     height: 3px;
-    background-color:#34495e;
+    background-color:#f39c12;
     width: 100%;
     position: absolute;
     top: -10px;
@@ -43,7 +45,7 @@ body {
 .toggle_btn span:after {
     content:'';
     height: 3px;
-    background-color:#34495e;
+    background-color:#f39c12;
     width: 100%;
     position: absolute;
     top: 10px;
@@ -53,8 +55,9 @@ body {
 
 .menu {
     height: 1072px;
-    background-color: #34495e;
+    background-color: #f39c12;
     width: 210px;
+    margin-right: 50px;
 }
 
 .menu a {
@@ -67,6 +70,10 @@ body {
     font-weight: bold;
     
 
+}
+
+.txtmenu{
+    text-align: top, right;
 }
 
 .logo {
@@ -92,15 +99,13 @@ body {
     background-color:black;
     color: white;
     margin-left: 500px;
-    margin-top: -1000px;
+    margin-top: -700px;
     opacity: 0.75;
  }
   
-
-
-
-
-
-
-
-
+#test{
+    text-align: right;
+    color: #f39c12;
+    margin-right: -50px;
+    margin-top: 10px;
+}
