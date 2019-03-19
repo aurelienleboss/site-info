@@ -1,6 +1,7 @@
 body {
     background-image: url("csgo2.jpg");
     background-repeat: no-repeat;
+    background-size:cover;
 
 }
 
@@ -48,18 +49,20 @@ body {
 
 
 .menu {
-    height: 1050px;
+    height: 1072px;
     background-color: #34495e;
-    width: 200px;
+    width: 210px;
 }
 
 .menu a {
     color:#ffffff;
-    font-family: sans-serif;
+    font-family: sans-serif ;
     text-align:center;
     display:block;
-    padding-top: 30px;
+    padding-top: 60px;
     text-decoration: none;
+    font-weight: bold;
+    
 
 }
 
