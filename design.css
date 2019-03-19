@@ -1,7 +1,9 @@
 body {
-    background-image: url("csgo2.jpg");
-    background-repeat: no-repeat;
-    background-size:cover;
+    background: url(csgo2.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
 }
 
@@ -84,8 +86,12 @@ body {
 
 #cadre1 {
     border:1px solid black;
-    width:150px;
-    height:150px;
+    height:700px;
+    width:500px;
+    background-color:black;
+    color: white;
+    margin-left: 500px;
+    margin-top: -550px;
  }
   
 
