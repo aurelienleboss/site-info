@@ -1,13 +1,13 @@
 body {
-    background-image: url("csgo2.jpg");
-    background-repeat: no-repeat;
-
+    background: url(csgo2.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-html, body {
-    padding: 0;
-    margin: 0;
-}
+
+
 
 .toggle_btn {
     height: 30px;
@@ -15,14 +15,16 @@ html, body {
     position: relative;
     float: right;
     margin-right: 10px;
-    margin-top: 5px;
+    margin-top: 15px;
     cursor: pointer;
+    margin-top: 10px;
+    margin-right: 50px;
 
 }
 
 .toggle_btn span {
     height: 3px;
-    background-color:#34495e;
+    background-color:#f39c12;
     width: 100%;
     position: absolute;
     top: 20px;
@@ -32,7 +34,7 @@ html, body {
 .toggle_btn span:before {
     content:'';
     height: 3px;
-    background-color:#34495e;
+    background-color:#f39c12;
     width: 100%;
     position: absolute;
     top: -10px;
@@ -43,7 +45,7 @@ html, body {
 .toggle_btn span:after {
     content:'';
     height: 3px;
-    background-color:#34495e;
+    background-color:#f39c12;
     width: 100%;
     position: absolute;
     top: 10px;
@@ -52,19 +54,30 @@ html, body {
 
 
 .menu {
-    height: 1050px;
-    background-color: #34495e;
-    width: 200px;
+    height: 1072px;
+    background-color: #f39c12;
+    width: 210px;
+    margin-right: 50px;
 }
 
 .menu a {
     color:#ffffff;
+<<<<<<< HEAD
     font-family: Verdana;
+=======
+    font-family: sans-serif ;
+>>>>>>> master
     text-align:center;
     display:block;
     padding-top: 60px;
     text-decoration: none;
+    font-weight: bold;
+    
 
+}
+
+.txtmenu{
+    text-align: top, right;
 }
 
 .logo {
@@ -74,20 +87,34 @@ html, body {
 }
 
 .nav {
+<<<<<<< HEAD
     margin-left: -200px;
     transition: 0.4s;
+=======
+    margin-left: -220px;
+    transition: 0.2s;
+>>>>>>> master
 }
 
 .nav_open {
     margin-left: 0;
     transition-duration: 0.4s;
 }
+
+#cadre1 {
+    border:1px solid black;
+    height:700px;
+    width:500px;
+    background-color:black;
+    color: white;
+    margin-left: 500px;
+    margin-top: -700px;
+    opacity: 0.75;
+ }
   
-
-
-
-
-
-
-
-
+#test{
+    text-align: right;
+    color: #f39c12;
+    margin-right: -50px;
+    margin-top: 10px;
+}
