@@ -4,8 +4,9 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
 }
+
+
 
 
 .toggle_btn {
@@ -91,9 +92,15 @@ body {
     background-color:black;
     color: white;
     margin-left: 500px;
+<<<<<<< HEAD
     margin-top: -550px;
     opacity: 0.75;
  }
+=======
+    opacity: 0.75;
+    margin-top: -1000px;
+}
+>>>>>>> master
   
 
 
