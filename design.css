@@ -1,15 +1,8 @@
 body {
-    background: url(csgo2.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+ background-color: #e67e22;
 
 }
 
-.pres {
-    text-decoration: underline;
-}
 
 
 .toggle_btn {
@@ -77,12 +70,17 @@ body {
 
 }
 
+.menu a:hover {
+    color:grey;
 
+}
 
-.logo {
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 24px;
+.menu .closebtn {
+    position: absolute;
+    top: -35px;
+    left: 120px;
+    font-size: 36px;
+    margin-left: 50px;
 }
 
 .nav {
@@ -95,27 +93,23 @@ body {
 }
 
 .nav_open {
-    margin-left: 0;
+    margin-left: -8px;
     transition-duration: 0.6s;
 }
 
-#cadre1 {
-    border:1px solid black;
-    height:900px;
-    width:500px;
-    background-color:black;
-    color: white;
-    margin-left: 600px;
-    margin-top: -1000px;
-    
-    opacity: 0.95;
- }
+
+
 
  #cadre2 {
      border:1px solid black;
      height: 50px;
      width: 1831px;
      background-color:black;
+     font-size: 100%;
+     margin-top: -9px;
+  
+    
+    
      
  }
   
