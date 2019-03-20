@@ -1,8 +1,11 @@
 body {
- background-color: #e67e22;
+    background: url(csgo2.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
 }
-
-
 
 .toggle_btn {
     height: 30px;
@@ -117,8 +120,5 @@ body {
     color: white;
     margin-right: -37px;
     margin-top: 8px;
-    }
-
-
-
-
+    
+}
