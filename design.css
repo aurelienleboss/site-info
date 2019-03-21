@@ -103,6 +103,11 @@ body {
     transition-duration: 0.6s;
 }
 
+.logo {
+    font-weight: bold;
+    font-size:23px;
+}
+
 
 
 
