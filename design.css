@@ -1,5 +1,6 @@
 body {
  background-color: #e67e22;
+ background-attachment: fixed;
 }
 
 
@@ -102,10 +103,13 @@ body {
  #cadre2 {
      border:1px solid black;
      height: 50px;
-     width: 1831px;
+     width: 100%;
      background-color:black;
      font-size: 100%;
      margin-top: -9px;
+     margin-left: -5%;
+     margin-right: -5%;
+     padding-left: 100%;
   
     
     
