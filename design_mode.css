@@ -119,6 +119,8 @@ body {
     text-align: right;
     color: white;
     margin-right: -37px;
-    margin-top: 8px;
-    
+    margin-top: -9px;
+    margin-left: -5%;
+    margin-right: -5%;
+    padding-left: 100%;
 }
