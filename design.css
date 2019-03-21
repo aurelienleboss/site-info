@@ -54,6 +54,12 @@ body {
     background-color: black;
     width: 200px;
     margin-right: 50px;
+    z-index: 100000000000000000;
+    margin-top: -20%;
+    padding-bottom: 100%;
+    background-attachment: fixed;
+    padding-top: 20%;
+    
 }
 
 .menu a {
@@ -110,6 +116,7 @@ body {
      margin-left: -5%;
      margin-right: -5%;
      padding-left: 100%;
+     z-index: 0;
   
     
     
