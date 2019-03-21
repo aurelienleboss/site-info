@@ -1,5 +1,5 @@
 body {
- background-color: #e67e22;
+ background-color:white;
  background-attachment: fixed;
 }
 
@@ -135,6 +135,21 @@ body {
     margin-top: 8px;
     }
 
+.bvn {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.bvn {
+    text-align: center;
+    margin-top: -163%;
+}
+
+.pr {
+    text-align: center;
+    margin-top: -160%;
+}
 
 
 
