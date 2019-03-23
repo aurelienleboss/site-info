@@ -18,6 +18,8 @@ body {
 
 }
 
+
+
 .toggle_btn span {
     height: 3px;
     background-color:white;
@@ -51,7 +53,7 @@ body {
 
 .menu {
     height: 1072px;
-    background-color: black;
+    background-color: #111;
     width: 200px;
     margin-right: 50px;
     z-index: 100000000000000000;
@@ -63,21 +65,22 @@ body {
 }
 
 .menu a {
-    color:#ffffff;
+    color:#818181;
      font-family: sans-serif ;
     font-family: Verdana;
     font-family: sans-serif ;
     text-align:center;
     display:block;
-    padding-top: 60px;
+    padding-top: 40px;
     text-decoration: none;
     font-weight: bold;
+    transition: 0.3s;
     
 
 }
 
 .menu a:hover {
-    color:grey;
+    color:#f1f1f1;
 
 }
 
@@ -112,16 +115,12 @@ body {
 
 
  #cadre2 {
-     border:1px solid black;
-     height: 50px;
-     width: 100%;
-     background-color:black;
-     font-size: 100%;
-     margin-top: -9px;
-     margin-left: -5%;
-     margin-right: -5%;
-     padding-left: 100%;
-     z-index: 0;
+  border: 1px solid black;
+  height: 50px;
+  background-color: black;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-top: -10px;
   
     
     
@@ -144,11 +143,6 @@ body {
 .bvn {
     text-align: center;
     margin-top: -163%;
-}
-
-.pr {
-    text-align: center;
-    margin-top: -160%;
 }
 
 
