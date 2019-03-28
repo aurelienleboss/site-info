@@ -1,149 +1,79 @@
 body {
- background-color:white;
- background-attachment: fixed;
-}
-
-
-
-.toggle_btn {
-    height: 30px;
-    width: 30px;
-    position: relative;
-    float: right;
-    margin-right: 10px;
-    margin-top: 15px;
-    cursor: pointer;
-    margin-top: 10px;
-    margin-right: 50px;
-
-}
-
-
-
-.toggle_btn span {
-    height: 3px;
-    background-color:white;
-    width: 16px;
-    position: absolute;
-    top: 15px;
+    font-family: "Lato", sans-serif;
+    transition: background-color .5s;
+  }
+  /* Menu */
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
     left: 0;
-}
-
-.toggle_btn span:before {
-    content:'';
-    height: 3px;
-    background-color:white;
-    width: 16px;
-    position: absolute;
-    top: -5px;
-    left: 0;
-
-}
-
-.toggle_btn span:after {
-    content:'';
-    height: 3px;
-    background-color:white;
-    width: 16px;
-    position: absolute;
-    top: 5px;
-    left: 0;
-}
-
-
-.menu {
-    height: 1072px;
     background-color: #111;
-    width: 200px;
-    margin-right: 50px;
-    z-index: 100000000000000000;
-    margin-top: -20%;
-    padding-bottom: 100%;
-    background-attachment: fixed;
-    padding-top: 20%;
-    
-}
-
-.menu a {
-    color:#818181;
-     font-family: sans-serif ;
-    font-family: Verdana;
-    font-family: sans-serif ;
-    text-align:center;
-    display:block;
-    padding-top: 40px;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  /* Texte dans le menu */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-weight: bold;
+    font-size: 25px;
+    color: #818181;
+    display: block;
     transition: 0.3s;
-    
-
-}
-
-.menu a:hover {
-    color:#f1f1f1;
-
-}
-
-.menu .closebtn {
+  }
+  /* Quand on passe la souris sur le texte dans le menu */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  /* Bouton pour fermer le menu */
+  .sidenav .closebtn {
     position: absolute;
-    top: -35px;
-    left: 120px;
+    top: 0;
+    right: 25px;
     font-size: 36px;
     margin-left: 50px;
-}
-
-.nav {
-
-
-    margin-left: -220px;
-    transition: 0.6s;
-
-
-}
-
-.nav_open {
-    margin-left: -8px;
-    transition-duration: 0.6s;
-}
-
-.logo {
-    font-weight: bold;
-    font-size:23px;
-}
-
-
-
-
- #cadre2 {
-  border: 1px solid black;
-  height: 50px;
-  background-color: black;
-  margin-left: -20px;
-  margin-right: -20px;
-  margin-top: -10px;
-  
+  }
+  /* Pour que le contenu soit poussé quand on ouvre le menu */
+  #main {
+    transition: margin-left .5s;
+    padding: 17px;
+    margin-top: -60px;
     
-    
-     
- }
+  }
+  /* Design pour la page d'acceuil */
+  .cadre2 {
+    border: 1px solid black;
+    height: 50px;
+    background-color: black;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top: -10px;
+  }
   
-#test{
-    text-align: right;
-    color: white;
-    margin-right: -37px;
-    margin-top: 8px;
-    }
-
-.bvn {
+  .inf {
     text-align: center;
-    font-size: 25px;
-    font-weight: bold;
-}
-
-.bvn {
+  }
+  
+  .jeu {
     text-align: center;
-    margin-top: -163%;
-}
-
-
-
+    margin-top: -15px;
+  }
+  
+  .bordure {
+    border: 2px solid #818181 ;
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+  
+  .bordure2 {
+    border: 2px solid #818181 ;
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+  
+  .img1{
+   width: 35%;
+  }
