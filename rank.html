@@ -1,30 +1,29 @@
 <!DOCTYPE <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" />
-   <title>Les modes</title>
-   <link rel="stylesheet" href="design_rank.css"> 
-</head>
-<body>
- <!-- Haut de page -->
- <header>
-  
-        <div class="toggle_btn"><nav id="test"><strong>Menu</strong></nav><span></span></div>
-        <div id="cadre2"></div>
-       
-               <div class="menu nav">
-                    
-               <a href="https://blog.counter-strike.net/index.php/category/updates/" class="logo"> Site officiel de CS:GO</a>
-               <a href="index.html" title="L'acceuil">ACCEUIL</a>
-               <a href="modes.html" title="Les modes">LES MODES</a>
-               <a href="deroulementpartie.html" title="Déroulement d'une partie">DEROULEMENT D'UNE PARTIE</a>
-               <a href="maps.html" title="Les maps (les cartes)">LES MAPS</a>
-               <a href="rank.html" title="Les ranks">LES RANKS</a>
-               
-              
-     
-          </div>
-      </header>
-        <script type="text/javascript" src="javascript.js"></script>
-</body>
+        <head>
+    <title>Présentation CS:GO</title>
+    <link rel="stylesheet" href="design.css"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        </head>
+                <body>
+                        <div id="mySidenav" class="sidenav">
+                                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                                <a href="index.html">Acceuil</a>
+                                <a href="maps.html">Les maps</a>
+                                <a href="modes.html">Les modes</a>
+                                <a href="rank.html">Les ranks</a>
+                                <a href="deroulementpartie.html">Déroulement d'une partie</a>
+                                <a href="armes.html">Les armes</a>
+                        </div>
+                        <div class="cadre2"></div>
+<!-- Pour que le contenu de la page soit poussé quand on ouvre le menu -->
+<div id="main">
+<span style="font-size:30px;cursor:pointer;color:#979797" onclick="openNav()">&#9776;Menu</span>
+</div>
+<!-- Contenu de la page -->
+<p><strong>Sur Counter-Strike , il y a un système de rank. Il y a plusieurs rank , tous présent en anglais sur la photo ci-dessous.Le premier grade est argent 1 et le dernier , global elite. </strong></p>
+<img src="Les ranks.png" alt="ranks sur cs:go" title="tout les ranks sur cs:go" width="280" class="imgrank">
+                        <script type="text/javascript" src="javascript.js"></script>
+                </body>
 </html>
